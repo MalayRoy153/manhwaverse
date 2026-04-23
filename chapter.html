@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reading Chapter</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="reader-page">
+  <div class="reader-progress"><div id="progress-bar"></div></div>
+
+  <div class="reader-header" id="reader-header">
+    <a href="#" id="back-btn" class="btn btn-small">← Back</a>
+    <div class="reader-title">
+      <span id="reader-manhwa"></span>
+      <span class="separator">|</span>
+      <span id="reader-chapter"></span>
+    </div>
+    <button id="theme-toggle" class="icon-btn">🌓</button>
+  </div>
+
+  <main class="reader-container" id="reader-container"></main>
+
+  <div class="reader-footer" id="reader-footer">
+    <button id="prev-ch" class="btn">← Previous</button>
+    <button id="next-ch" class="btn">Next →</button>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/reader.js"></script>
+</body>
+</html>

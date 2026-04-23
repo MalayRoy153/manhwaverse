@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manhwa Detail</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-brand">
+      <a href="index.html">ManhwaVerse</a>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">🌓</button>
+    </div>
+  </nav>
+
+  <div id="manhwa-detail">
+    <div class="detail-hero">
+      <div class="detail-banner" id="detail-banner"></div>
+      <div class="detail-header container">
+        <img id="detail-cover" src="" alt="Cover">
+        <div class="detail-info">
+          <h1 id="detail-title"></h1>
+          <div class="detail-meta" id="detail-meta"></div>
+          <div class="detail-genres" id="detail-genres"></div>
+          <p id="detail-summary"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <section class="chapters-section">
+        <h2>Chapters</h2>
+        <div id="chapters-list" class="chapters-list"></div>
+      </section>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/detail.js"></script>
+</body>
+</html>
